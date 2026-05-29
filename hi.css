@@ -1,0 +1,50 @@
+body{
+    background-image:url(split-fiction-logo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New';
+    height:100vh;
+    font-size:2rem;
+    margin:0;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+article{
+    color:rgb(176, 164, 164);
+    height:94vh;
+    display:flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+
+}
+a:hover{
+    font-weight:700;
+    border-bottom:1px solid purple;
+}
+footer{
+  background-color: aliceblue;
+    font-size: 20px;
+    padding: 20px;   
+}
+@media (max-width:800px){
+    main{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    body{
+        height: auto;
+    }
+    
+}

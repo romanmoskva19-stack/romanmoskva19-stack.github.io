@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    font-family: 'Courier New';
+    height:100vh;
+    background-color: #6DBE45;
+}
+footer{
+  background-color: aliceblue;
+    font-size: 20px;
+    padding: 20px;   
+    text-align: center;
+}
+header{
+    background-color: aliceblue;
+    font-size: 20px;
+    padding: 30px;   
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: aliceblue;
+    font-size: 20px;
+    
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+
+}
+a:hover{
+    font-weight:700;
+    border-bottom:1px solid purple;
+}
+img{
+    height:400px;
+    width:350px;
+}
+main{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero{
+    width: 400px;
+    border:2px solid lightblue;
+    text-align: center;
+    overflow: auto;
+    position: relative;
+    animation:animation 2s normal;
+   
+}
+.name{
+    font-weight: bold;
+    font-size:30px;
+}
+@media (max-width:800px){
+    main{
+        flex-direction: column;
+    }
+}
+@keyframes animation{
+    from{
+        top:20000px;
+    }
+    to{
+        top:0px;
+    }
+}
